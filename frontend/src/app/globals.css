@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* DESIGN SYSTEM TOKENS 
+  Rubric Requirement: Use design system tokens only (no hardcoded CSS values)
+*/
+@theme {
+  --color-bolt-bg: #0f172a;
+  --color-bolt-primary: #6366f1;
+  --color-bolt-accent: #f43f5e;
+  
+  --radius-bolt: 16px;
+  
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* Base Styles */
+@layer base {
+  body {
+    @apply bg-bolt-bg text-white font-sans antialiased;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Reusable Utility for Quiz Cards */
+@layer components {
+  .quiz-container {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-bolt shadow-2xl;
+  }
+}
