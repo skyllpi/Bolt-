@@ -9,6 +9,7 @@ This project was implemented as part of the BrainBolt technical assignment and e
 ## Demo Video
 
 https://github.com/user-attachments/assets/d2d43955-3bd0-4790-98a0-b93744089f9c
+
 Due to GitHub file size constraints, a detailed walkthrough and technical explanation are also hosted on YouTube.
 > 
 
@@ -55,3 +56,4 @@ As required, the entire application stack runs using a single command:
 
 ```bash
 docker-compose up --build
+
